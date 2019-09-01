@@ -1,0 +1,32 @@
+/* BUTTONS COMMAND */
+.route {
+  alignment-baseline:"central";
+  text-anchor:"middle";
+  fill:"white";
+  stroke-width:"2px";
+  dy:".3em";
+}
+
+.circlered {
+  fill:red;
+  stroke:#4dc6f4;
+  stroke-width:4;
+}
+
+.circleblack {
+  fill:black;
+  stroke:#4dc6f4;
+  stroke-width:4;
+}
+
+.circlegreen {
+  fill:green;
+  stroke:#4dc6f4;
+  stroke-width:4;
+}
+
+.circleorange {
+  fill:orangered;
+  stroke:#4dc6f4;
+  stroke-width:4;
+}
