@@ -1,3 +1,43 @@
+/* Default style of an SVG element (area) - the style when the SVG/page just loads */
+.classRaahDefault {
+  display: inline;
+  fill: #cccccc;
+  fill-opacity: 0;
+  stroke: #000000;
+  stroke-width: 0.1;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 0.4;
+}
+
+/* Default Hover style of an SVG element (area) */
+.classRaahDefault:hover {
+  fill-opacity:0.4;
+}
+/* style of an SVG element (area) when the element is clicked (selected) */
+.classRaahSelected {
+  display:inline;
+  fill: #cccccc;
+  fill-opacity: 0;
+  stroke:#4dc6f4;
+  stroke-width:4;
+  stroke-linecap:butt;
+  stroke-linejoin:miter;
+  stroke-miterlimit:4;
+  stroke-dasharray:none;
+  stroke-dashoffset:0;
+  stroke-opacity:1
+}
+/* Hover style of an SVG element (area) when the element is clicked (selected) */
+.classRaahSelected:hover {
+  fill-opacity:0;
+}
+
+
+
+
+
 /* BUTTONS COMMAND */
 
 .route {
@@ -6,6 +46,26 @@
   fill:"white";
   stroke-width:"2px";
   dy:".3em";
+}
+
+.circleDefault{
+  fill:black;
+  stroke:#4dc6f4;
+  stroke-width:4;
+}
+.circleDefault:hover {
+  fill-opacity:0.4;
+}
+
+.circleSelected{
+  fill:#4dc6f4;
+  fill-opacity:0.7;
+  stroke:black;
+  stroke-width:4;
+  stroke-opacity: 0.4;
+}
+.circleSelected:hover{
+  fill-opacity:0.5;
 }
 
 .circlered {
